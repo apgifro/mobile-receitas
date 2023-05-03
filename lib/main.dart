@@ -7,7 +7,7 @@ import 'package:receitas/screens/recipes.dart';
 
 void main() {
   runApp(DevicePreview(
-      enabled: false,
+      enabled: true,
       builder: (BuildContext context) => MaterialApp(
           useInheritedMediaQuery: true,
           locale: DevicePreview.locale(context),
